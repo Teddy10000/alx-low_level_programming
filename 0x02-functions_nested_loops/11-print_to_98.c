@@ -15,6 +15,8 @@ void print_to_98(int n)
 
 {
 
+
+
 	while (n < 98)
 
 	{
@@ -35,7 +37,10 @@ void print_to_98(int n)
 
 	}
 
-	printf("98");i
+
+
+	printf("98");
 
 	putchar('\n');
+
 }
