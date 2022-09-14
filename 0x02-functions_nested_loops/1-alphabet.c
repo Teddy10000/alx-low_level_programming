@@ -27,5 +27,5 @@ char c = 'a';
 
 	}
 }
-_putchar('\n')
+_putchar('\n');
 }
