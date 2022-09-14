@@ -24,7 +24,8 @@ char c = 'a';
 		c++;
 		{
 
-	_putchar('\n');
+
 	}
 }
+_putchar('\n')
 }
