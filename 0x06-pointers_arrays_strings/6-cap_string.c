@@ -4,22 +4,21 @@
 
 
 /**
- * *cap_string -> capitalize words
+ * *cap_string -> A pointer to the changed string.
  *
- *   * @str: pointer
+ *   * @str: The string to be capitalized
  *
- *    * Return: capitalzied string
+ *    * Return: A pointer to the changed string.
  *
 */
 
 
 char *cap_string(char *str)
-
 {
 
 	int index = 0;
 
-	while (str[++index])
+	while (str[index])
 		{
 		while (!(str[index] >= 'a' && str[index] <= 'z'))
 			index++;
