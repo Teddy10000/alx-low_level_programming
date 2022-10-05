@@ -1,5 +1,4 @@
 #include "main.h"
-
 #include <stdlib.h>
 
 
@@ -52,6 +51,6 @@ int **alloc_grid(int width, int height)
 		for (wid_index = 0; wid_index < width; wid_index++)
 
 			twoD[hgt_index][wid_index] = 0;
-
+	}
 	return (twoD);
 }
